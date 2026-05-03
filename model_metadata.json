@@ -1,0 +1,51 @@
+{
+  "dataset": "PIMA Indians Diabetes",
+  "target": "Outcome",
+  "feature_order": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "invalid_zero_features": [
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI"
+  ],
+  "median_values": {
+    "Pregnancies": 3.0,
+    "Glucose": 117.0,
+    "BloodPressure": 72.0,
+    "SkinThickness": 29.0,
+    "Insulin": 125.0,
+    "BMI": 32.4,
+    "DiabetesPedigreeFunction": 0.3825,
+    "Age": 29.0
+  },
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 2,
+    "n_estimators": 200,
+    "subsample": 0.8
+  },
+  "scale_pos_weight": 1.8691588785046729,
+  "test_metrics": {
+    "accuracy": 0.7403,
+    "precision": 0.6,
+    "recall": 0.7778,
+    "f1_score": 0.6774,
+    "auc_roc": 0.8211,
+    "tn": 72,
+    "fp": 28,
+    "fn": 12,
+    "tp": 42
+  },
+  "decision_threshold": 0.5
+}
